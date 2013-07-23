@@ -11,3 +11,14 @@
   }
 }
 
+.paint_box {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0px;
+}
+
+#canvas {
+  width: 500px;
+  border: 1px solid #333;
+}

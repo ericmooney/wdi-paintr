@@ -21,5 +21,5 @@ $(document).ready(function(){
   };
 
   $('#add_color').on('click', add_color);
-  $('.box').on('click', set_color);
+  $('#colors').on('click', '.box', set_color);
 });
